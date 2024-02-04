@@ -1,4 +1,4 @@
-import {add, load, addView} from '/actions'
+import {add, load, addView} from './actions'
 import {useReducer} from 'react'
 
 
