@@ -36,8 +36,7 @@ const modifWidth = ()=> {
           <li className="item">
             <Link to='/editer'>Editer</Link>
           </li>
-          <li className="item">
-          <Link to='/contact'>Contact</Link></li>
+
         
         </ul>
       )}

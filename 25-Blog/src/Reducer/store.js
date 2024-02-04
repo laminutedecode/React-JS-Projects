@@ -1,14 +1,12 @@
-// import {createStore, applyMiddleware, combineReducers} from 'redux';nn
-
 
 import {
   createStore,
   applyMiddleware,
   combineReducers,
 } from "redux";
+import { thunk } from 'redux-thunk'
 
 import articleReducer from './articles/articleReducer';
-import thunk from 'redux-thunk';
 
 const rootReducer = combineReducers({
   articleReducer
