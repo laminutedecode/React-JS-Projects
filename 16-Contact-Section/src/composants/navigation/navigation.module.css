@@ -1,0 +1,20 @@
+.navigation {
+    width: 100%;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(102, 41, 159);
+}
+.navigation ul{
+    display: flex;
+    align-items:center;
+    column-gap: 1rem;
+}
+.navigation ul li a {
+    color: #333;
+    font-weight: bold;
+}
+.navigation ul li a:hover {
+    color: rgb(102, 41, 159);
+}

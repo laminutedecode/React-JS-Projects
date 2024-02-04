@@ -1,0 +1,52 @@
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+  height: auto;
+}
+
+form {
+   width: 100%;
+}
+
+label {
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid crimson;
+  outline: none;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: crimson;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-gap: 6px;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  align-items: start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 0 3vw;
+  }
+ label {
+    font-size: 18px;
+  }
+}

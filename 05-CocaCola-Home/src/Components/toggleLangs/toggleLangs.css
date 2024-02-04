@@ -1,0 +1,18 @@
+.box-langs {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.2);
+    background: rgb(241, 241, 241,0.7);
+}
+.box-langs img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+

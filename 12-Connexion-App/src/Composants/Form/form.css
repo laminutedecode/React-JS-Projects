@@ -1,0 +1,151 @@
+
+.globalForm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.801);
+}
+
+.modal {
+  position: absolute;
+  background: var(--light);
+  z-index: 100;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.hide-modal {
+  display: none;
+}
+
+.formAuth {
+  position: relative;
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+
+.formAuth h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+ .formGroup {
+ position: relative;
+ border-bottom: 2px solid gray;
+ margin: 30px 0;
+}
+
+.formAuth label,
+.formAuth input {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+
+}
+
+.formGroup label {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  color: gray;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: top 0.2s ease-in,
+      color 0.2s ease-in;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.formGroup span::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--orange);
+  transition: width 0.3s ease-in-out;
+}
+
+.formGroup  input:focus   ~ span::before,
+.formGroup  input:valid  ~  span::before {
+  width: 100%;
+}
+.formGroup input:focus  ~ label,
+.formGroup input:valid  ~ label {
+  color: var(--orange);
+  top: -5px;
+}
+
+
+.formBtn {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  margin: 30px 0 10px 0;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(83, 83, 83);
+  color: var(--light);
+  transition: background 0.2s ease-in-out;
+}
+
+.formBtn:hover {
+  background: var(--orange);
+}
+
+.formInfos {
+  margin-top: 3px;
+  cursor: pointer;
+  color: var(--orange);
+}
+
+.formClose {
+  background: var(--orange);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 20px;
+  color: var(--light);
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-image: linear-gradient(to top, #00294f, #0c81ee);
+  overflow: hidden;
+  padding: 100px 1rem;
+  
+}
+
+h1 {
+  color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 2rem;
+}

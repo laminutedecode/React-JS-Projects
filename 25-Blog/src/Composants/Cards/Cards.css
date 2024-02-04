@@ -1,0 +1,28 @@
+.cards {
+  max-width: 300px;
+  min-width: 300px;
+  padding: 10px;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,.3);
+  margin: 10px;
+  cursor: pointer;
+  min-height: 200px;
+  text-align: left;
+  display:flex; 
+  justify-content: space-between; 
+  flex-direction: column;
+}
+
+.cards h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cards p {
+  font-size: 18px;
+}
+
+.cards a {
+  text-decoration: none;
+  color: orange;
+  font-weight: 700;
+}

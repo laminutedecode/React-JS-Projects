@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem 2rem;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.container-lignes {
+  width: 90%;
+  position: absolute; 
+   top:50%; 
+   left:50%; 
+   transform: translate(-50%,-50%);
+}
+
+.ligne{
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 0%;
+  height: 10px;
+  background: linear-gradient(to right, #ff8878, #ff3939);
+}
+
+.ligne-dessus {
+  z-index: 10;
+  transition: width 0.4s ease-in-out;
+}
+
+.ligne-dessous {
+  width: 100%;
+  height: 10px;
+  z-index: 5;
+  background: #ffffff;
+}
+
+.ronds {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+}
+
+.rond {
+  width: 30px;
+  height: 30px;
+  background: #f1f1f1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rond:nth-child(1) {
+  position: relative;
+  right: 0px;
+}
+
+.rond:nth-child(5) {
+  position: relative;
+  left: 0px;
+}
+
+@media screen and (max-width: 780px){
+.container-lignes {
+    width: 85%;
+  }
+}

@@ -1,0 +1,65 @@
+.formulaire_container {
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.formulaire_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.formulaire_container h2 {
+    background: #fff;
+    color: #333;
+    font-weight: 800;
+    padding: 0 0.5rem;
+    text-transform: uppercase;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+.formulaire_form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.formulaire_btns {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.inputGroup label {
+    font-size: .9rem;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 0.5rem;
+}
+
+.inputGroup input, .inputGroup textarea {
+    border: 1px solid #e2e2e2;
+    padding: 1rem;
+    border-radius: 7px;
+    height: 40px;
+}
+.inputGroup textarea {
+    height: 150px;
+    resize: none;
+}
+
+
+
+

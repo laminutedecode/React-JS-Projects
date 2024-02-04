@@ -1,0 +1,93 @@
+h1 {
+  color: var(--dark);
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
+section {
+  background: var(--light);
+  padding: 2rem;
+}
+
+.config {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 3rem;
+}
+
+.box-btns {
+  margin: 1rem;
+}
+
+.box-btns span {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+.plus, .moins{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: var(--btn-hover);
+  color: var(--light);
+  font-weight: bold;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+  font-size: 20px;
+}
+
+.plus:hover,
+.moins:hover{
+  background: var(--dark);
+}
+
+h1 .chrono{
+  display: block;
+  margin: 2rem 0;
+}
+
+.controls {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls button{
+margin: 0 1rem;
+display: inline-block;
+width: 200px;
+height: 50px;
+background: var(--btn-hover);
+border: none;
+outline: none;
+color: var(--light);
+font-weight: bold;
+font-size: 22px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+.anim {
+  animation: flash 1s infinite alternate;
+}
+
+@keyframes flash {
+  from {
+    box-shadow: 0 0 10px 0px #e5fbc5;
+  }
+  to {
+    box-shadow: 0 0 15px 5px rgb(255, 157, 157);
+  }
+}

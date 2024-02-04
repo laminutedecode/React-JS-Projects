@@ -1,0 +1,22 @@
+form {
+  display:flex; 
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+
+input {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  outline:none;
+  height: 40px;
+  border:none;
+  border-bottom: 1px solid midnightblue;
+  font-size: 20px;
+  color: #333;
+}

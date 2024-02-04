@@ -1,0 +1,19 @@
+.article-content {
+  max-width: 700px;
+  width: 100%;
+  height: 100vh;
+  color: #333;
+  margin: 5rem auto;
+  padding-top: 10rem;
+  
+}
+
+.article-content h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.article-content p {
+ font-weight: 400;
+ font-size: 15px;
+}

@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: rgba(0,0,0,.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,.2);
+  padding: 1rem;
+  margin: 0 1rem;
+  animation: fadeInAnimation .3s ease forwards;
+
+  .modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e2e2e2;
+  
+      h3 {
+      color: #333;
+      font-size: clamp(20px, 5vw, 35px);
+      text-transform: uppercase;
+    }
+  }
+}
+
+.fadeOut {
+  animation: fadeOutAnimation .3s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    transform: scale(0);
+  }to {
+    transform: scale(1);
+  }
+}
+@keyframes fadeOutAnimation {
+  from {
+    transform: scale(1);
+  }to {
+    transform: scale(0);
+  }
+}
