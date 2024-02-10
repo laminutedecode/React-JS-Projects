@@ -1,0 +1,182 @@
+.global {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(250,146,48);
+  font-family: Arial, Helvetica, sans-serif;
+  --color1: rgb(255,149,0);
+  --color2: #adadad
+}
+
+.btn {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  transition: .2s ease-in-out;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(49,49,49,.5);
+}
+
+.modal {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 800px;
+  min-width: 500px;
+}
+
+.modal-content p {
+  line-height: 1.4;
+}
+
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+form {
+  padding: 0 40px;
+}
+
+.group-input {
+  position: relative;
+  border-bottom: 2px solid var(--color2);
+  margin: 30px 0;
+}
+
+.group-input input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.group-input label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: var(--color2);
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .2s ease-in-out;
+}
+
+.group-input span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--color1);
+  transition: .3s ease-in-out;
+}
+
+
+.group-input input:focus ~ label,
+.group-input input:valid ~ label {
+  color: var(--color1);
+  top: -5px;
+}
+.group-input input:focus ~ span::before,
+.group-input input:valid ~ span::before {
+  width: 100%;
+}
+
+.mdp {
+  display: inline-block;
+  margin: -5px 0 16px 5px;
+  color: var(--color2);
+  font-style: italic;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
+}
+
+.mdp:hover {
+  color: var(--color1);
+  text-decoration: underline;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 50%;
+  height: 40px;
+  background: var(--color1);
+  border-radius: 25px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin: 1rem auto;
+  transition: .2s ease-in-out;
+
+}
+
+input[type="submit"]:hover {
+  background: rgb(182,103,0);
+}
+
+.compte {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: var(--color2)
+}
+
+.compte a {
+  color: var(--color1);
+  text-decoration: none;
+}
+
+.compte a:hover {
+  text-decoration: underline;
+}
+
+.btn-close {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  background: var(--color1);
+  top: 1rem;
+  right: 1rem;
+}
