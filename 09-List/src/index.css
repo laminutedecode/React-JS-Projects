@@ -1,0 +1,83 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to top, maroon, rgb(246, 105, 105));
+  display:flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 0 1rem;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  background: #f1f1f1;
+  padding: 0 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+.container h3 {
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container-item {
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  border-bottom: 1px solid #333;
+  display:flex; 
+  justify-content: space-evenly; 
+  align-items: center; 
+}
+
+
+.container-item img {
+  width: 50px;
+  height: 50px;
+  object-fit:cover;
+  border-radius: 50%;
+}
+
+.nom {
+  font-weight: 700;
+  font-size: 22px;
+  color: maroon;
+}
+
+.post {
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.container button {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background: maroon;
+  color: #f1f1f1;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.container button:hover {
+  background: rgb(221, 99, 99);
+}
+
