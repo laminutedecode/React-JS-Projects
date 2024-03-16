@@ -1,0 +1,11 @@
+1)npm create vite@latest 
+2) npm i -D tailwindcss postcss autoprefixer 
+3) npx tailwindcss init -p
+4) rajouter au fichier tailwing config 
+content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
+5) Importer tailwind dans app.css
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+6) npm i react-icons @reduxjs/toolkit react-redux react-router-dom
