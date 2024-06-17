@@ -1,25 +1,66 @@
-# Projets React
+# Projets React.js
 
-Ce répertoire contient plusieurs projets développés en utilisant React. Chaque projet est une application web ou une interface utilisateur créée avec React pour offrir des fonctionnalités interactives et dynamiques.
+## Description
+Ce référentiel contient divers projets réalisés avec React.js, présentés sur la chaîne YouTube [Nom de votre chaîne YouTube]. Chaque projet est organisé dans un dossier distinct et contient les fichiers sources ainsi que les instructions pour reproduire le projet.
 
-## Utilisation
+## Contenu
 
-Chaque projet est contenu dans son propre répertoire et contient les fichiers React nécessaires. Vous pouvez explorer chaque projet en accédant au répertoire correspondant.
+1. **Moovies App**
+   - Une application de films.
 
-Pour exécuter un projet localement, suivez ces étapes :
+2. **Hero Sony**
+   - Une section héro pour Sony.
 
-1. Clonez ce répertoire sur votre machine locale.
-2. Accédez au répertoire du projet souhaité.
-3. Exécutez le projet en utilisant les commandes spécifiques à React, telles que `npm start`. Assurez-vous d'avoir Node.js et npm installés sur votre machine.
+3. **Contact Section**
+   - Une section de contact.
 
-## Personnalisation
+4. **Calculator**
+   - Une calculatrice fonctionnelle.
 
-Vous pouvez personnaliser chaque projet en modifiant les composants React, les fichiers de configuration et les styles selon vos besoins. N'hésitez pas à expérimenter et à ajouter vos propres fonctionnalités pour adapter chaque projet à vos besoins spécifiques.
+5. **Image Convertor**
+   - Un convertisseur d'images.
+
+6. **Todo List**
+   - Une liste de tâches.
+
+7. **Accordion**
+   - Un composant accordéon.
+
+8. **Effet Typewritter**
+   - Un effet de machine à écrire.
+
+9. **List**
+   - Une liste interactive.
+
+10. **Modal**
+    - Une fenêtre modale.
+
+11. **Navbar Responsive**
+    - Une barre de navigation responsive.
+
+12. **Modals**
+    - Divers exemples de modales.
+
+13. **Slider**
+    - Un carousel d'images.
+
+14. **Authentification**
+    - Système d'authentification.
+
+15. **Airbnb Clone**
+    - Un clone de la page d'accueil d'Airbnb.
+
+16. **Contacts App**
+    - Une application de gestion de contacts.
+
+17. **Disney Clone**
+    - Un clone de la plateforme Disney+.
+
+18. **Reservation Rendez-vous App**
+    - Une application de réservation de rendez-vous.
+
+## Contribution
+Ce référentiel est destiné à des fins éducatives seulement. Les contributions directes ne sont pas acceptées.
 
 ## Licence
-
-Ce répertoire est sous licence MIT. Vous pouvez trouver les détails complets de la licence dans le fichier `LICENSE`.
-
-## Auteur
-
-Ce répertoire a été créé par Jonathan Benitez. Si vous avez des questions, des suggestions ou avez besoin d'aide, n'hésitez pas à me contacter à laminutedecode@gmail.com
+Ce projet est sous licence [MIT](LICENSE).
